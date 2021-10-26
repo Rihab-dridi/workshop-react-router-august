@@ -1,0 +1,10 @@
+dynamic route : includes three components :
+  path app component (define the url )
+ depart (name of the user : profile component)
+
+  destination : user component 
+
+
+path: we declare the dynamic variable (:id)
+depart: we link the url with the action button and asign a valuee to the variable (id= el.id)
+destiantion: we look for the user with that very exact id 

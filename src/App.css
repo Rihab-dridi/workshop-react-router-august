@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+li{
+  list-style: none;
+  color:black;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  background-color: rgb(246, 244, 244);
+  padding: 20px;
+  margin: 0px;
+  margin-bottom: 10px;
+  position: sticky;
+  top:0px;
+}
+.login{
+  border: 1px solid white;
+  width: 100px;
+  padding: 5px 20px;
+  margin-left: 5px;
+background-color: #ee2d6b;
+  color: white;
+  border-radius: 6px;
+  font-size: 15px;
+  text-decoration: none;
+
+}
+.home img {
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.Profiles{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Profile{
+  width: 30%;
+  margin: 25px;
+  padding:25px;
+  background-color: whitesmoke;
+
+}
+.Profile img{
+  height:200px;
+ 
+}
+.Profile h3:hover {
+background-color: lightgray;
+cursor:pointer;
+}
+.aboutUs img{
+  height:500px;
+  margin:50px;
+  background-color: whitesmoke;
+}
+.user img{
+  height:300px
+}
